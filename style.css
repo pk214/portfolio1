@@ -86,11 +86,22 @@ li:hover{
     position: fixed;
     right: 0px;
     top: 300px;
+    opacity: 0.3;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.right_icon:hover{
+    opacity: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.07s;
 }
 
 .fa-brands:hover{
 color: #15500e;
-font-size: 33px;
+transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.07s;
 }
 
 .about{
@@ -129,6 +140,9 @@ p{
 
 .about button:hover{
     background-color: #15500e;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.07s;
 }
 
 
@@ -196,12 +210,16 @@ p{
     padding: 0px 10px 0px 10px;
     border-radius: 5px;
     font-weight: 600;
+    opacity: 0.8;
 }
 
 .sk:hover{
     background-color: rgb(212, 209, 209);
     width: 85%;
     font-weight: 700;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    opacity: 1;
 }
 
 .project{
@@ -237,6 +255,10 @@ p{
 
 .card:hover{
     background-color: rgb(212, 209, 209);
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.07s;
+    cursor: pointer;
 }
 
 .card span{
@@ -315,6 +337,9 @@ p{
 
 .contact_part button:hover{
     background-color: #15500e;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.07s;
 }
 
 footer{
