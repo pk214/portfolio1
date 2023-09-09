@@ -354,22 +354,42 @@ footer{
 @media (min-width:200px) and (max-width:500px) 
 {
 
+    .home{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
 .home_left{
     width: 100%;
+    height: 50%;
     
 }
 
+.home_left_nav{
+    margin: 30px;
+    padding: 0px;
+    
+}
 .home_right{
-    width: 0%;
+    position: relative;
+    left: 180px;
+    bottom: 55px;
+}
+
+#home_img{
+    border-radius: 50%;
 }
 
 .left_down{
-    width: 100%;
+    width: 90%;
+    
+    position: relative;
+    top: 28%;
 }
 
 .name_up, .name_down{
     position: relative;
-    right: 47%;
+    right: 55%;
     
 }
 
